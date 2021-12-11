@@ -11,3 +11,7 @@ Fetches the lofi girl chill beats livestream playurl and plays it via VLC networ
 The python script `yt_stream.pyw` (no UI asynchronous process) fetches the latest playurl of the lofi chill beats livestream (https://www.youtube.com/watch?v=5qap5aO4i9A) and saves it to `lofi_last_fetch.txt`. The batch script `lofi.bat` kills any existing vlc processes (left by previous runs) and plays the fetched url via network stream in vlc (minimized in system tray).
 
 **Target OS:** Windows NT (the main python script should work in any OS but the batch script needs to be rewritten for other OS).
+
+_Can be adapted for any youtube url by replacing the url variable in the `yt_stream.pyw` script with the youtube video you want._
+
+Made this utility because I was tired of my browser freezing with the youtube tab open in the browser for too long. Made the repo here in case someone is in the same boat as me.
