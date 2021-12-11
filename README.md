@@ -14,4 +14,4 @@ The python script `yt_stream.pyw` (no UI asynchronous process) fetches the lates
 
 _Can be adapted for any youtube url by replacing the url variable in the `yt_stream.pyw` script with the youtube video you want._
 
-Made this utility because I was tired of my browser freezing with the youtube tab open in the browser for too long. Made the repo here in case someone is in the same boat as me.
+Made this utility because I was tired of my browser freezing with the youtube tab open in the browser for too long. Made the repo here in case someone is in the same boat as me and wants to automate this and make the whole thing more efficient. Plus, you get to avoid the live chat there (or rather even starting your browser!)
