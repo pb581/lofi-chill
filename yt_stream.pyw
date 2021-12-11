@@ -9,6 +9,6 @@ playurl = best.url	#network stream url to play in vlc
 #copy(playurl)					#copy fetched url to clipboard
 
 #dump the last fetched playurl to a txt file in desktop in case it is lost from clipboard
-file = open(r"C:\Users\admin\Desktop\codes\lofi_stream\lofi_last_fetch.txt",'w')
+file = open(r"lofi_last_fetch.txt",'w')
 file.write(playurl)
 file.close()
