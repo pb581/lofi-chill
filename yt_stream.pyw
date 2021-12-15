@@ -6,7 +6,7 @@ video = new(url)
 best = video.getbest()
 playurl = best.url	#network stream url to play in vlc
 
-#copy(playurl)					#copy fetched url to clipboard
+#copy(playurl)			 #copy fetched url to clipboard
 
 #dump the last fetched playurl to a txt file in desktop in case it is lost from clipboard
 file = open(r"lofi_last_fetch.txt",'w')
