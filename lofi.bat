@@ -4,4 +4,5 @@ taskkill /f /im vlc.exe /t
 
 cd /D %~dp0
 start /b /min vlc lofi_last_fetch.txt --meta-title "lofi chill" --qt-start-minimized
+
 exit
