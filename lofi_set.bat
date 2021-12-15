@@ -2,6 +2,6 @@ if not DEFINED IS_MINIMIZED set IS_MINIMIZED=1 && start "" /min "%~dpnx0" %* && 
 
 cd /D %~dp0
 
-call reset_network_config.bat
+call renew_network_config.bat
 pythonw yt_stream.pyw
 call lofi.bat
