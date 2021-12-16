@@ -18,6 +18,6 @@ _Can be adapted for any youtube url by replacing the url variable in the `yt_str
 
 Made this utility because I was tired of my browser freezing with the youtube tab open in the browser for too long. Made the repo here in case someone is in the same boat as me and wants to automate this and make the whole thing more efficient. Plus, you get to avoid the live chat there (or rather even starting your browser!)
 
-Use `schtasks.exe` (Windows) or `cron` (\*nix) to automate it. Set up triggers (at log on/daily recurring every x hours) and actions (`yt_stream.pyw` -> `lofi.bat`) for the scheduled task and you're good to go!
+Use `schtasks.exe` (Windows) or `cron` (\*nix) to automate it. Set up triggers (at log on/daily recurring every x hours) and actions (<strike>`yt_stream.pyw` -> `lofi.bat`</strike>`lofi_set.bat`) for the scheduled task and you're good to go!
 
 **Added:** The only script needed to be run by the end-user is the `lofi_set.bat` which calls the required commands/scripts one-by-one.
