@@ -11,7 +11,7 @@ Fetches the lofi girl chill beats livestream playurl and plays it via VLC networ
 
 * Clone the repo and cd into it: `git clone https://github.com/pb581/lofi-chill && cd lofi-chill`
 * Install dependencies: `pip install -r requirements.txt`
-* Apply hotfix (copy the contents of the `hotfix` folder and paste it where pafy is installed (eg., `C:\Users\admin\AppData\Local\Programs\Python\Python37-32\Lib\site-packages\pafy\`).
+* Apply hotfix (copy the contents of the `hotfix` folder and paste it where pafy is installed (eg., `C:\Users\admin\AppData\Local\Programs\Python\Python37-32\Lib\site-packages\pafy\`). Hit Win+R and paste `%localappdata%\programs\python`, hit Enter and from there, go to `\python<your_version>\lib\site-packages\pafy\` and paste the given hotfix there.
 * Run `start lofi_set.bat`
 
 **How it works:**
