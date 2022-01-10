@@ -1,2 +1,5 @@
 pafy==0.5.5
+pipdeptree==2.2.1
+pip>=6.0.0
+setuptools==40.6.2
 youtube-dl==2021.6.6
